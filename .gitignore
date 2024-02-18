@@ -1,3 +1,9 @@
 data/
+<<<<<<< HEAD
+server/venv/
+Flow Keys.xlsx
+env/
+=======
 model/
 best_models/
+>>>>>>> 1572a24e2be454783077450b7cfcc49aab0ab8cc
