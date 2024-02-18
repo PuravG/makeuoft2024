@@ -26,4 +26,4 @@ app = socketio.WSGIApp(sio)
 
 if __name__ == '__main__':
     import eventlet
-    eventlet.wsgi.server(eventlet.listen(('127.0.0.1', 3000)), app)
+    eventlet.wsgi.server(eventlet.listen(('127.0.0.1', 51629)), app)
