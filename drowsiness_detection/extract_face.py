@@ -217,6 +217,10 @@ def open_cam():
         # to track the frame number, and skip some frames.
         frame_number = 0
 
+        #this needs to be outside the while loop!
+        previous = 0
+        curr = 0
+        up_or_down = 0
         while cap.isOpened():
 
             success, image = cap.read()
@@ -252,9 +256,7 @@ def open_cam():
                     # I want to capture the nose every thirty frames
 
                     
-                    previous = 0
-                    curr = 0
-                    up_or_down = 0
+                    
                     if frame_number % 100 == 0:
                         # if frame_number == 0:
                         # I just want two dimensions, x and y, and I only have 1 coordinate (the nose)
@@ -269,7 +271,7 @@ def open_cam():
 
 
                     # # I want to capture the eyes every 10 frames
-                    if frame_number % 100 == 0:
+                    # if frame_number % 100 == 0:
                         # I want to run the setup file csv once
                         if frame_number == 0:
                             # 3 dimensions, and 12 coordinates that I am looking at
