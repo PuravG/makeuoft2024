@@ -19,6 +19,10 @@ import json
 import requests
 
 from predict import *
+
+#!! make sure you are running the python files from the current folder where eye.csv are
+
+abs_path = os.getcwd()
  
 def setup_file(csv_file, num_dimension = 3, num_coords = 33 + 21 + 21):
     rows = []
@@ -213,6 +217,10 @@ def open_cam():
         # to track the frame number, and skip some frames.
         frame_number = 0
 
+        #this needs to be outside the while loop!
+        previous = 0
+        curr = 0
+        up_or_down = 0
         while cap.isOpened():
 
             success, image = cap.read()
@@ -248,48 +256,50 @@ def open_cam():
                     # I want to capture the nose every thirty frames
 
                     
-                    previous = 0
-                    curr = 0
-                    if frame_number % 30 == 0:
+                    
+                    if frame_number % 100 == 0:
                         # if frame_number == 0:
                         # I just want two dimensions, x and y, and I only have 1 coordinate (the nose)
                         #     setup_file("nose.csv", 2, 1)
                         # ! we do not need the x value
-                        _, y = capture_nose(image, face_landmarks, "nose.json")
+                        _, y = capture_nose(image, face_landmarks, os.path.join(abs_path, "nose.json"))
+                        # _, y = capture_nose(image, face_landmarks, r"D:\Personnel\Other learning\Programming\Personal_projects\3_Hackathons_with_buddies\MAKEUOFT2024\drowsiness_detection\nose.json")
+
                         previous = curr
                         curr = y
+                        up_or_down = curr - previous    
+
 
                     # # I want to capture the eyes every 10 frames
-                    if frame_number % 100 == 0:
+                    # if frame_number % 100 == 0:
                         # I want to run the setup file csv once
                         if frame_number == 0:
                             # 3 dimensions, and 12 coordinates that I am looking at
-                            setup_file("eye.csv", 3, 12)
-                        capture_eye(image, face_landmarks, "eye.csv")
+                            setup_file(os.path.join(abs_path,"eye.csv"), 3, 12)
+                            setup_file(os.path.join(abs_path,"eye.csv"), 3, 478)
+                        capture_eye(image, face_landmarks, os.path.join(abs_path,"eye.csv"))
                     #     if frame_number == 0:
                     #         # 3 dimensions, and 12 coordinates that I am looking at
                     #         setup_file("eye.csv", 3, 12)
                     #     capture_pose(image, face_landmarks, "pose.csv")
-                    if frame_number % 10 == 0:
-                        if frame_number == 0:
+                    # if frame_number % 100 == 0:
+                    #     if frame_number == 0:
                             
                             # 3 dimensions, and 478 coordinates that I am looking at
-                            setup_file("eye.csv", 3, 478)
-                        capture_eye(image, face_landmarks, "eye.csv")
+                        # capture_yawn(image, face_landmarks, "eye.csv")
 
                         # using the functions in predict.py
                         # running the prediction
-                        final_prediction_eye = predict_eye("eye.csv")
+                        final_prediction_eye = predict_eye(os.path.join(abs_path,"eye.csv"))
                             
-                        capture_yawn(image, face_landmarks, "yawn.csv")
+                        capture_yawn(image, face_landmarks, os.path.join(abs_path,"yawn.csv"))
                         #TODO here, I run a second machine learning model that tells if the person is yawning
 
-                        final_prediction_yawn = predict_yawn("yawn.csv")
+                        final_prediction_yawn = predict_yawn(os.path.join(abs_path,"yawn.csv"))
 
-                        up_or_down = previous - curr    
 
                         # writing the values for prediction into a json file
-                        with open("predictions.json", mode='a') as f:
+                        with open(os.path.join(abs_path,"predictions.json"), mode='a') as f:
                             f.truncate(0)
                             json.dump([final_prediction_eye, final_prediction_yawn, up_or_down], f)
                             print([final_prediction_eye, final_prediction_yawn, up_or_down])
@@ -307,3 +317,6 @@ def open_cam():
 
         cap.release()
         cv2.destroyAllWindows()
+
+# if __name__ == "__main__":
+open_cam()
