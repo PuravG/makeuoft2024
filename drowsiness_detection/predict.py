@@ -1,3 +1,25 @@
+#intial imports: 
+import cv2
+import mediapipe as mp
+
+import numpy as np
+from numpy import asarray
+# import pandas as pd
+# import tensorflow as tf
+import os
+import csv
+# from tensorflow.keras.losses import SparseCategoricalCrossentropy
+# from tensorflow.keras.optimizers import Adam
+import time
+# import streamlit as st
+from matplotlib import pyplot as plt
+from PIL import Image
+
+import json
+import requests
+ 
+
+
 def make_prediction(model_path, labels, csv_file):
     my_model = tf.keras.models.load_model(model_path, compile=False)
     my_model.compile(loss=SparseCategoricalCrossentropy(), optimizer=Adam(), metrics=["accuracy"])
@@ -31,3 +53,14 @@ MODEL_PATH = r"D:\Personnel\Other learning\Programming\Personal_projects\3_Hacka
 def predict_yawn(file_name):
     predictions, final_prediction = make_prediction(MODEL_PATH, ["no_yawn", "yawn"], file_name)
     return final_prediction
+
+
+
+if __name__ == '__main__':
+    final_prediction_eye = predict_eye("eye.csv")
+    final_prediction_yawn = predict_yawn("yawn.csv")
+
+
+    # writing the values for prediction into a json file
+    with open("predictions.json", mode='a') as f:
+        json.dump([final_prediction_eye, final_prediction_yawn], f)
