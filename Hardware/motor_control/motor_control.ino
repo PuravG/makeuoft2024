@@ -17,57 +17,88 @@ int counter = 0;
 Rotary rotary = Rotary(encA, encB);
 
 // "PID"
-int target = 30;
-int minPower = 150;
+int target = 60;
+int minPower = 250;
 int error = 100;
 const double kP = 25.0;
 int output;
-
-bool loading = true; // state machine var
-
-void handleEnc(){
-  unsigned char result = rotary.process();
-  if (result == DIR_CW) {
-    counter++;
-    // Serial.println(getPos());
-    // Serial.print("error: ");
-    // Serial.println(target - getPos());
-    computePID();
-
-  }
-  else if (result == DIR_CCW) {
-    counter--;
-    computePID();
-  }
-}
 
 int getPos(){
   return -counter;
 }
 
-void computePID(){
-  error = target - getPos();
-  output = kP*error;
-
-  if(loading){
-    handleMovement();
-  }
-  else{
-    if(Serial.available()){ // Slap
-      Serial.read();
-      Serial.println("Slapped!");
-      motor.forward();
-      motor.setSpeed(255);
-      delay(200);
-      motor.stop();
-    }
-  }
-  // Data logging
+void logData(){
   Serial.println(getPos());
   Serial.print("error: ");
   Serial.print(error);
   Serial.print(" output: ");
   Serial.println(output);
+}
+
+void handleEnc(){
+  unsigned char result = rotary.process();
+  if (result == DIR_CW) {
+    counter++;
+    logData();
+  }
+  else if (result == DIR_CCW) {
+    counter--;
+    logData();
+  }
+
+}
+
+enum class StateTypes{
+  loading,
+  ready,  // loaded
+  slapping
+};
+
+StateTypes state = StateTypes::loading;
+
+void handlePID(){
+  error = target - getPos();
+  output = kP*error;
+
+  switch(state){
+    case StateTypes::loading:
+      handleMovement();
+      break;
+    case StateTypes::ready:
+      if(Serial.available()){ // Slap
+        Serial.read();
+        Serial.println("Slapped!");
+        motor.forward();
+        motor.setSpeed(255);
+        delay(200);
+        motor.stop();
+        state = StateTypes::slapping;
+      }
+      break;
+    case StateTypes::slapping:
+      if(error > 30){
+        motor.forward();
+        state = StateTypes::loading;
+      }
+      break;    
+  }
+  // if(loading){
+  //   handleMovement();
+  // }
+  // else{
+  //   if(Serial.available()){ // Slap
+  //     Serial.read();
+  //     Serial.println("Slapped!");
+  //     motor.forward();
+  //     motor.setSpeed(255);
+  //     delay(200);
+  //     motor.stop();
+  //     motor.forward();
+  //     loading = true;
+  //   }
+  // }
+  // Data logging
+
 
 }
 
@@ -77,13 +108,13 @@ void handleMovement(){
     motor.stop();
     
     Serial.println("Target Reached!");
-    loading = false;
+    state = StateTypes::ready;
   }
   else {
     if(output < minPower) output = minPower;
     // motor.forward();
     motor.setSpeed(output);
-    p();
+    // p();
   }
 }
 
@@ -119,7 +150,7 @@ void loop() {
   // delay(100);
 
   handleEnc();
-  // handlePID();
+  handlePID();
   // handleMovement();
 
 }
