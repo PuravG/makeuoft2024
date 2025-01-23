@@ -1,0 +1,334 @@
+[
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/layout_activity_main.xml.flat",
+        "source": "com.litepomodoroapp-main-29:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-anydpi-v21_ic_launcher_background.xml.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-anydpi-v21/ic_launcher_background.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxhdpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-ldpi_ic_launcher_background.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-ldpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-anydpi-v21_ic_pause.xml.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-anydpi-v21/ic_pause.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-mdpi_ic_pomodoro_girare.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-mdpi/ic_pomodoro_girare.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-hdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-hdpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-mdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-mdpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxxhdpi_ic_coffe_cup.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxxhdpi/ic_coffe_cup.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.litepomodoroapp-main-29:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-mdpi_ic_coffe_cup.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-mdpi/ic_coffe_cup.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-ldpi_ic_delete_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-ldpi/ic_delete_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-ldpi_ic_pause.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-ldpi/ic_pause.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-mdpi_ic_pause.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-mdpi/ic_pause.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xhdpi_ic_pomodoro_rings.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xhdpi/ic_pomodoro_rings.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxhdpi_ic_pomodoro_girare.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxhdpi/ic_pomodoro_girare.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.litepomodoroapp-main-29:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-mdpi_ic_av_timer_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-mdpi/ic_av_timer_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xhdpi_ic_av_timer_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xhdpi/ic_av_timer_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-hdpi_ic_coffe_cup.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-hdpi/ic_coffe_cup.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-ldpi_ic_av_timer_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-ldpi/ic_av_timer_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-anydpi-v21_ic_av_timer_black_24dp.xml.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-anydpi-v21/ic_av_timer_black_24dp.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xhdpi_ic_delete_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xhdpi/ic_delete_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxhdpi_ic_coffe_cup.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxhdpi/ic_coffe_cup.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxxhdpi_ic_restore.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxxhdpi/ic_restore.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxxhdpi_ic_av_timer_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxxhdpi/ic_av_timer_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xhdpi_ic_restore.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xhdpi/ic_restore.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-hdpi_ic_restore.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-hdpi/ic_restore.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxxhdpi_ic_pomodoro_rings.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxxhdpi/ic_pomodoro_rings.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-hdpi_ic_pomodoro_girare.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-hdpi/ic_pomodoro_girare.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.litepomodoroapp-main-29:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable_light_rectangle_gradient.xml.flat",
+        "source": "com.litepomodoroapp-main-29:/drawable/light_rectangle_gradient.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-mdpi_ic_launcher_background.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-mdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxhdpi_ic_restore.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxhdpi/ic_restore.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.litepomodoroapp-main-29:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xhdpi_ic_coffe_cup.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xhdpi/ic_coffe_cup.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-anydpi-v21_ic_pomodoro_girare.xml.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-anydpi-v21/ic_pomodoro_girare.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.litepomodoroapp-main-29:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-mdpi_ic_pomodoro_rings.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-mdpi/ic_pomodoro_rings.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable_light_grey_rectangle.xml.flat",
+        "source": "com.litepomodoroapp-main-29:/drawable/light_grey_rectangle.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxhdpi_ic_delete_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxhdpi/ic_delete_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xhdpi_ic_launcher_background.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable_danger_rectangle_gradient.xml.flat",
+        "source": "com.litepomodoroapp-main-29:/drawable/danger_rectangle_gradient.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxxhdpi_ic_launcher_background.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xhdpi_ic_pomodoro_girare.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xhdpi/ic_pomodoro_girare.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-hdpi_ic_av_timer_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-hdpi/ic_av_timer_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-ldpi_ic_pomodoro_rings.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-ldpi/ic_pomodoro_rings.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xhdpi_ic_pause.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xhdpi/ic_pause.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xhdpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-anydpi-v21_ic_restore.xml.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-anydpi-v21/ic_restore.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-mdpi_ic_restore.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-mdpi/ic_restore.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxxhdpi_ic_pomodoro_girare.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxxhdpi/ic_pomodoro_girare.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-ldpi_ic_pomodoro_girare.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-ldpi/ic_pomodoro_girare.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxhdpi_ic_av_timer_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxhdpi/ic_av_timer_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxhdpi_ic_pause.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxhdpi/ic_pause.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-anydpi-v21_ic_coffe_cup.xml.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-anydpi-v21/ic_coffe_cup.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.litepomodoroapp-main-29:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-hdpi_ic_pause.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-hdpi/ic_pause.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-ldpi_ic_dashboard_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-ldpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-anydpi-v21_ic_dashboard_black_24dp.xml.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-anydpi-v21/ic_dashboard_black_24dp.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-ldpi_ic_coffe_cup.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-ldpi/ic_coffe_cup.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-hdpi_ic_launcher_background.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-hdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable_rectangle_gradient.xml.flat",
+        "source": "com.litepomodoroapp-main-29:/drawable/rectangle_gradient.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-ldpi_ic_restore.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-ldpi/ic_restore.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.litepomodoroapp-main-29:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/xml_preferences.xml.flat",
+        "source": "com.litepomodoroapp-main-29:/xml/preferences.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxxhdpi_ic_delete_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxxhdpi/ic_delete_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxhdpi_ic_pomodoro_rings.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxhdpi/ic_pomodoro_rings.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-anydpi-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.litepomodoroapp-main-29:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-anydpi-v21_ic_delete_black_24dp.xml.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-anydpi-v21/ic_delete_black_24dp.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.litepomodoroapp-main-29:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.litepomodoroapp-main-29:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-hdpi_ic_delete_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-hdpi/ic_delete_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-hdpi_ic_pomodoro_rings.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-hdpi/ic_pomodoro_rings.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/layout_activity_settings.xml.flat",
+        "source": "com.litepomodoroapp-main-29:/layout/activity_settings.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxhdpi_ic_launcher_background.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxhdpi/ic_launcher_background.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-anydpi-v21_ic_pomodoro_rings.xml.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-anydpi-v21/ic_pomodoro_rings.xml"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxxhdpi_ic_dashboard_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxxhdpi/ic_dashboard_black_24dp.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.litepomodoroapp-main-29:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-xxxhdpi_ic_pause.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-xxxhdpi/ic_pause.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.litepomodoroapp-main-29:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.litepomodoroapp-merged_res-27:/drawable-mdpi_ic_delete_black_24dp.png.flat",
+        "source": "com.litepomodoroapp-pngs-22:/drawable-mdpi/ic_delete_black_24dp.png"
+    }
+]

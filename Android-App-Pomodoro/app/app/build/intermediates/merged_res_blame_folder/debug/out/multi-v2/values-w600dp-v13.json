@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "com.litepomodoroapp-mergeDebugResources-25:/values-w600dp-v13/values-w600dp-v13.xml",
+            "map": [
+                {
+                    "source": "/Users/puravgupta/.gradle/caches/transforms-3/607796019e163c8995cbed938d6c57ab/transformed/jetified-material-seekbar-preference-2.3.0/res/values-w600dp-v13/values-w600dp-v13.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "50",
+                        "endOffsets": "101"
+                    }
+                }
+            ]
+        }
+    ]
+}
